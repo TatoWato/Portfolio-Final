@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Gustavo Guzman, Web Developer/Designer</title>
+    <link rel="stylesheet" href="css/grid-styles.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="shortcut icon" href="assets/favicon.ico">
+    <link href="https://fonts.googleapis.com/css?family=Barlow+Condensed|Kaushan+Script&display=swap" rel="stylesheet">
+    <script src="assets/js.js"></script>
+  </head>
+  <body class="grid_wrapper">
+    <nav id="navbar" class="nav_wrapper">
+      <li id="title" class="title"><a href="#home">Gustavo Guzman</a></li>
+      <li class="subtext"><a href="#home">Home</a></li>
+      <li class="subtext"><a href="#about">About</a></li>
+      <li class="subtext"><a href="#blog">Blog</a></li>
+      <li class="subtext"><a href="#portfolio">Portfolio</a></li>
+      <li class="subtext"><a href="#contact">Contact</a></li>
+    </nav>
+
+    <main id="home">
+      <div class="">
+        <h1>Let's <span>Get</span> Started!</h1>
+      </div>
+    </main>
+
+      <section class="about_wrapper" id="about">
+        <div class="">
+          <h2>Hello! My name is Gustavo, </br>and welcome to my site!</h2>
+          <p>It appears that you have made your way upon my small corner of the internet; welcome! I have recently attained my Associates degree at Wake Tech Community College in Web Dev, learning much along the way. During my time here, I have become proficent in various web technologies, running the gamut of HTML, CSS, JavaScript, PHP, and SQL. Along with those mainstays, I have also become familiar with various frameworks such as Bootstrap and Materialize, as well as some content management systems like WordPress. Beyond these fundamental skills, though, is perhaps as aspect that is far more important - the drive to advance my abilities and attain a greater level of understanding. Please, feel free to reach out, look over my resume, and peruse my portfolio - it will be worth your while, of that I am certain!</p>
+          <input type="button" onclick="ResumeOpen()" value="Link to Resume" />
+        </div>
+      </section>
+
+      <section id="blog">
+        <div class="">
+          <h2>Blog</h2>
+          <input type="button" onclick="BlogOpen()" value="WordPress" />
+        </div>
+      </section>
+
+      <section id="portfolio">
+        <div class="portfolio_wrapper">
+          <h2>Portfolio</h2>
+          <a href="http://wcet3.waketech.edu/gguzman/WEB287/midterm/assets/pleasure_island/index.html" target="_blank"><img src="images/Pleasure_Thumb.png" alt="Pleasure Island NC "></a>
+          <a href="http://wcet3.waketech.edu/gguzman/WEB287/midterm/assets/biltmore/index.html" target="_blank"><img src="images/Biltmore_Thumb.png" alt="Biltmore Estate"></a>
+          <a href="http://wcet3.waketech.edu/gguzman/WEB287/midterm/assets/calisthenics/project_template.html" target="_blank"><img src="images/CalCon_Thumb.png" alt="Calisthenics Concentration"></a>
+          <p><span>Pleasure Island, NC</span></br>A small brochure site listing various attractions and events coming to Carolina and Kure Beaches!</p>
+          <p><span>Biltmore Companion App</span></br>An app created to assist visitors on the Biltmore grounds, leaving only the essentials! </p>
+          <p><span>CalCon</span></br>CalCon is everything you need to determine the next perfect progression on your calisthenics journey!</p>
+        </div>
+      </section>
+
+      <section id="contact">
+        <div class="">
+          <form class="" action="index.html" method="post">
+            <h2>Contact</h2>
+            <input type="text" name="first_name" value="" placeholder="First Name">
+            <input type="text" name="last_name" value="" placeholder="Last Name">
+            <input type="text" name="email" value="" placeholder="Email">
+            <input type="textarea" name="comments" value="" placeholder="Leave any comments here!">
+            <input type="submit" name="submit" value="Submit">
+          </form>
+        </div>
+      </section>
+
+      <footer id="footer">
+        <p>Copyright &copy; 2020, Gustavo Guzman</p>
+      </footer>
+  </body>
+</html>
