@@ -1,0 +1,65 @@
+@media print {
+
+* {
+  color: #000;
+  text-align: justify;
+}
+
+nav,
+img,
+form,
+footer a,
+footer p {
+  display: none;
+}
+
+header a {
+  font-family: 'IBM Plex Sans Condensed', Verdana, sans-serif;
+  font-size: 20pt;
+  letter-spacing: 3px;
+  text-decoration: none;
+  border-bottom: 2px solid #000;
+}
+
+header a:after {
+  content: "";
+}
+
+h1,
+h2,
+h3 {
+  font-family: 'Roboto', Verdana, sans-serif;
+  text-align: center;
+}
+
+h2 {
+  font-size: 16pt;
+  text-decoration: underline;
+}
+
+h3 {
+  font-size: 14pt;
+  text-align: left;
+}
+
+p {
+  text-align: left;
+  font-size: 12pt;
+}
+
+label {
+  font-weight: bold;
+}
+
+a {
+  font-size: 12pt;
+  text-decoration: none;
+}
+
+a:after {
+  content: " [" attr(href)"] ";
+  display: block;
+  text-align: left;
+  text-decoration: none;
+}
+}

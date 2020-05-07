@@ -1,0 +1,109 @@
+.navbar-brand h4 {
+  padding-top: 7px;
+  color: #FFF;
+  font-size: 1.45rem;
+  font-family: 'Nanum Myeongjo', serif;
+}
+
+nav {
+  border-bottom: 3px solid #44391a;
+}
+
+nav.navbar {
+  background-color: #cfb53b;
+}
+
+#headingOne1 h4, #headingTwo2 h4 {
+    color: #FFF;
+    font-size: 1.3rem;
+    font-family: 'Nanum Myeongjo', serif;
+}
+
+#collapseOne1 a, #collapseTwo2 a {
+  display: block;
+  padding-left: 1rem;
+  font-size: 1.15rem;
+  color: #000;
+}
+
+html, body {
+  height: 100%;
+}
+
+body.home {
+  background-image: url(../img/banner.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 300px;
+}
+
+.card-img-top {
+  box-shadow: 0 2px 5px 0 rgba(207, 181, 59, 1), 0 2px 10px 0 rgba(207, 181, 59, 1);
+}
+
+.card {
+  width: 100%;
+}
+
+#footer {
+  height: 25%;
+}
+
+#footer i {
+  padding-right: 3px;
+}
+
+#footer p:last-of-type {
+  margin-bottom: 0;
+}
+
+#topHalf {
+  height: 35%;
+  color: #cfb53b;
+  background-color: #FFF;
+}
+
+#bottomHalf {
+  height: 65%;
+  background-color: #cfb53b;
+  color: #FFF;
+  border-top: 3px solid #44391a;
+}
+
+.wrapper {
+  width: 65%;
+  margin: auto;
+}
+
+@media screen and (min-width:760px)  {
+
+  nav.navbar, div.card, #footer {
+    width: 60%;
+    margin: auto;
+  }
+
+  body.home {
+    background-image: url(../img/banner.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 60%;
+    margin: auto;
+  }
+}
+
+@media screen and (min-width:900px)  {
+
+  nav.navbar, div.card, #footer {
+    width: 50%;
+    margin: auto;
+  }
+
+  body.home {
+    background-image: url(../img/banner.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 50%;
+    margin: auto;
+  }
+}

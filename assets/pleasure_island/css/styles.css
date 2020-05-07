@@ -1,0 +1,79 @@
+body {
+  background-color: #aec9e0;
+  font-family: 'Libre Franklin';
+}
+
+header {
+  background-image: url(../img/beach_banner.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 300px;
+}
+
+header h1, header h2 {
+    font-family: 'Lobster';
+    text-shadow:
+    3px 3px 0 #aec9e0,
+    -1px -1px 0 #aec9e0,
+    1px 1px 0 #aec9e0,
+    -1px 1px 0 #aec9e0,
+    1px 1px 0 #aec9e0;
+}
+
+a {
+  color: #007071;
+  text-decoration: underline;
+}
+
+a:hover {
+  opacity: .50;
+}
+
+a.nav-item.nav-link {
+  background-color: #5d85b6;
+  color: #e2e9f2;
+  border: solid #007071 .15rem;
+  text-decoration: none;
+}
+
+a.nav-item.nav-link:hover {
+  background-color: #FFFFFF;
+  color: black;
+}
+
+div#sidebar {
+  background-color: #e2e9f2;
+  border: solid #007071 .15rem;
+}
+
+div#sidebar p:hover {
+  opacity: .50;
+}
+
+div.card {
+  border: solid #007071 .15rem;
+}
+
+#footer img {
+  height: 2.3rem;
+  width: 2.3rem;
+  transition: transform .3s;
+}
+
+#footer img:hover {
+  transform: scale(1.2);
+}
+
+hr {
+  border: 2px solid #007071;
+  width: 80%;
+}
+
+.secondary {
+  width: 50%;
+}
+
+#small_reveal {
+  display: none;
+}
